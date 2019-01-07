@@ -7,10 +7,10 @@
     <meta charset="utf-8">
     <link rel="icon" href="../../static/images/" />
     {% if title %}
-    <title>Awwards</title>
+    <title>Awards</title>
     {% else %}
     <link rel="icon" href="../../static/images/" />
-    <title> Awwards</title>
+    <title> Awards</title>
     {% endif %}
 
     {% block styles %}
@@ -31,11 +31,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/jquery-bar-rating/1.2.2/jquery.barrating.min.js"></script>
     {% endblock %}
-    
+
 
 </head>
 
-<body>
+<body style="background:url(https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+background-size: 100% 100%;">
+
     {% include "navbar.html" %}
     {% block content %} {%endblock%}
 
