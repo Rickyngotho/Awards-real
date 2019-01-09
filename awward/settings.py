@@ -91,8 +91,6 @@ DATABASES = {
         'NAME':  ('awwards'),
         'USER': ('eric'),
         'PASSWORD': ('6194'),
-        # 'HOST': ('DB_HOST'),
-        # 'PORT': '',
     }
 }
 
